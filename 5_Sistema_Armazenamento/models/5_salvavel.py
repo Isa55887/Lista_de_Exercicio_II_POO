@@ -1,0 +1,3 @@
+class Salvavel(Protocol):
+    def salvar(self, dado: str) -> None:
+        ...
